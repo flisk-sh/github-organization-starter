@@ -2,9 +2,9 @@
 
 A free, copy-and-run kit for creating and configuring a professional GitHub organization: step-by-step guides, an organization profile template, security and community files, team and permission advice, and `gh` scripts that set up repositories and branch protection.
 
-![Create an organization in GitHub: 6-step motion walkthrough](docs/video/org-setup.gif)
+![Create an organization in GitHub: 10-step walkthrough with real clicks](docs/video/org-setup.gif)
 
-[Watch the 16-second walkthrough as MP4](docs/video/org-setup.mp4)
+[Watch the 36-second walkthrough as MP4 (cursor, clicks, zoom)](docs/video/org-setup.mp4)
 
 > GitHub's own guide is the source of truth for the creation screens: [Creating a new organization from scratch](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/creating-a-new-organization-from-scratch). Creating the organization itself is a manual step in the GitHub UI. This kit covers everything you do **after** that, and tells you what to decide **before** it.
 

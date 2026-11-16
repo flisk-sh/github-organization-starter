@@ -11,6 +11,10 @@ Captured from a signed-in session with org name, account name and avatars replac
 | `09-check-prerequisites.png` | Terminal, check-prerequisites.sh | README, QUICKSTART |
 | `10-bootstrap-dry-run.png` | Terminal, bootstrap dry run | README |
 | `social-preview.png` | 1280x640 repo social preview | Settings, Social preview |
+| `11-code-security.png` | Settings, Code security | video |
+| `12-actions-permissions.png` | Settings, Actions | video |
+| `13-rulesets.png` | Settings, Rulesets | video |
+| `14-new-repository.png` | New repository form | video |
 | `github-docs-create-org.png` | GitHub's own creation guide | create-github-organization.md |
 
 ## Still missing
