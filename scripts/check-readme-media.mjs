@@ -11,7 +11,10 @@ const images = [...readme.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)].map((m) => m[1]);
 assert.ok(images.length, 'README has no image references');
 const top = images[0];
 assert.ok(!top.endsWith('.gif'), `the first README image is still an animated GIF: ${top}`);
-assert.ok(readme.includes('docs/video/org-setup.mp4'), 'the MP4 walkthrough link is missing');
+const walkthrough = 'docs/video/org-setup.mp4';
+assert.ok(readme.includes(walkthrough), 'the MP4 walkthrough link is missing');
+assert.ok(statSync(join(root, walkthrough), { throwIfNoEntry: false })?.isFile(),
+  `README walkthrough is not a file: ${walkthrough}`);
 
 for (const ref of images) {
   if (/^https?:\/\//.test(ref)) continue;
